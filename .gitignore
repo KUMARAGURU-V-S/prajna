@@ -1,0 +1,22 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary / Audio Files
+*.wav
+*.mp3
+
+# Whisper.cpp Engine (we build it locally on each deployment)
+whisper.cpp/
+
+# Ignore Jupyter/IDE folders if present
+.idea/
+.vscode/
+*.ipynb_checkpoints/
